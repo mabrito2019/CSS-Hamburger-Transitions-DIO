@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-.warpper{
+.wrapper{
     background-color: rgb(221, 161, 171);
     width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,7 @@
     background-color: white;
     position: absolute;
     border-radius: 4px;
-    transition:  0,5s ease-in-out;
+    transition:0.5s ease-in-out;
 }
 
 .checkbox .trace:nth-child(1){
@@ -36,6 +37,11 @@
 }
 
 .checkbox .trace:nth-child(2){
+    top: 46px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(3){
     top: 66px;
     transform: rotate(0);
 }
@@ -56,7 +62,7 @@
     opacity: 0;
 }
 
-#toggle:checked + .checkbox .trace:nth-child(1){
+#toggle:checked + .checkbox .trace:nth-child(3){
     transform: rotate(-45deg);
     top: 48px;
 }
