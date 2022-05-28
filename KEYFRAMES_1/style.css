@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vh;
+}
+
